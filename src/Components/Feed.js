@@ -69,7 +69,12 @@ console.log(cartProuctIds);
 
     return(
         <>
-<h1>Products visible here</h1>
+<h1>Please select Products</h1>
+<div>
+    <h1>cart info </h1>
+    <p>Total product - 10 </p>
+    <p>Total Price-2000</p>
+</div>
 <button className="btn btn-danger" onClick={()=> {
     localStorage.removeItem("SHOPPING_TOKEN")
     localStorage.removeItem("SHOPPING-CART_ID")
